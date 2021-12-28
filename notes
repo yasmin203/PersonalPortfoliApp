@@ -1,0 +1,7 @@
+1- npm i bootstrap
+2- import " bootstrap/dist/css/bootstrap.min.css"
+
+3- git add . 
+git commit -m " this is my first commit on portfolio app project"
+4- crate github repo and push to turned_in_not
+5- 
