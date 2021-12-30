@@ -4,4 +4,14 @@
 3- git add . 
 git commit -m " this is my first commit on portfolio app project"
 4- crate github repo and push to turned_in_not
-5- 
+
+
+
+5- react fontawesom + svg icon
+6- put jquery cdn for bootstrap in index.html
+7- react typed lib 
+8- react particals js
+
+
+
+*** webpack =>  اهميتها ان الويباك بيعرف الملفات انها .js  فمش بضطر اني اكتب  .js
