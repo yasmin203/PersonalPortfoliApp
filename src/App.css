@@ -1,28 +1,50 @@
 /****************    NAVBAR  ***********************/
-a,li{
-  text-decoration: none;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+li{
+list-style: none;
+}
+a{
   color: #fff !important;
 }
+body{
+  font-family: 'Roboto', sans-serif;
+}
 nav{
-  background: url();
+  z-index: 4;
+  color: #fff !important;
 }
 .logo{
   width: 14.25rem;
 }
 .menu{
-  width: 500px;
-  display:block;
+  width: 652px;
   margin-left: auto !important;
+  max-width: 100%;
+
+  
 }
-a .nav-link {
+/* @media (max-width:768px) {
+  .menu{
+    position: absolute;
+    top: 56px;
+    left: 0;
+    z-index: 100 !important;
+    background-color: rgb(65, 65, 65);
+    width: 100vw;
+transition: 0.3s ease;
+  }
+} */
+.nav-link {
 letter-spacing: 1.045px;
 cursor: pointer;
 margin-right: 20px;
+
 }
  .nav-item{
 margin-left: 25px;
 line-height: 1.5;
 position: relative;
+
 
 } 
 .nav-link::before{
@@ -71,3 +93,175 @@ position: relative;
       font-size: 1.25rem;
 
     }
+    /****************    Header  ***********************/
+.header-wrapper{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.425)),
+  url("../public/images/buleD.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 90vh;  
+}
+.main-info{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  color: #fff;
+  padding-top: 40vh;
+  padding-left: 10rem;
+
+}
+.main-info h1{
+  font-size: 70px;
+  font-weight: bold;
+letter-spacing: 1rem;
+}
+.typed-text{
+  color: white;
+  letter-spacing: 0.7rem;
+  font-size: 1rem;
+  font-weight: 500;
+
+}
+.main-info a{
+  background-color: rgb(65, 65, 65);
+  padding: 10px 35px;
+  display: block;
+  margin-top: 2.5rem;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 700;
+  transition: 0.2s ease-in-out;
+  z-index: 5;
+
+}
+.main-info a:hover{
+  background-color: rgb(14, 105, 223);
+}
+@media(max-width:768px) {
+  .main-info a:hover{
+    background-color: rgb(65, 65, 65);
+  }
+  .main-info h1{
+    font-size: 40px;
+ 
+  }
+  .main-info{
+    padding-left: 1rem;
+  }
+  .typed-text{
+    font-size: 0.8rem;
+  
+  }
+}
+ /****************    Particles js ***********************/
+#tsparticles{
+  position: absolute;
+  height: 90vh;
+  width: 100vw;
+  z-index: 2;
+}
+@media(max-width:768px) {
+  #tsparticles{
+    display: none; 
+  }
+}
+ /**************** ABOUT ME ***********************/
+.row.aboutSection{
+margin: 5rem 0;
+}
+.img-fluid{
+  max-width: 100%;
+  width: 80%;
+  height: 500px;
+}
+.about-text h1{
+ font-size: 25px;
+ margin-bottom: 20px;
+
+}
+.about-text ul{
+  margin-left: -40px;
+
+}
+.about-text a{
+    background-color: rgb(65, 65, 65);
+    padding: 10px 35px;
+    margin-top: 5 rem;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 700;
+    transition: 0.2s ease-in-out;
+    border-radius: 4px;
+    margin-top: 24px;
+    display: inline-block;
+
+ 
+  
+  }
+  .about-text a:hover{
+    background-color: rgb(14, 105, 223);
+  }
+/************************** Projects ******************/
+#Projects ul button{
+font-weight: bold;
+}
+#Projects ul button:hover{
+  color: rgb(26, 98, 202);
+  }
+.btn-transparent.active{
+  color: rgb(26, 98, 202);
+}
+/************ Skills *************/
+#Skills .card{
+  border: none !important;
+  margin-top: 2rem;
+  padding: 2rem !important;
+  width: 100%;
+  height: auto;
+
+}
+
+#Skills .card-img-top{
+  width: 8rem !important;
+  max-width: 100%;
+  height: 6rem !important;
+
+
+}
+
+  /****************Footer ***********************/
+
+ .social-links{
+
+  background-color: black;
+  width: 100%;
+  max-width: 100%;
+  padding: 5rem 0;
+  color: #fff;
+  
+ }
+ .social-links .icons{
+margin: 0.5rem 0;
+
+  
+ }
+ .social-links .icons a i {
+  font-size: 25px;
+  margin-bottom: 0.8rem;
+  
+    
+   }
+   .social-links .icons a i:hover {
+    color: rgb(14, 105, 223);
+    transition: ease-in-out 0.3s;
+    
+      
+     }
+ .social-links .icons p{
+  margin-top: 2rem;
+  
+    
+   }
