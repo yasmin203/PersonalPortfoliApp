@@ -11,9 +11,9 @@ export default function Tools() {
               My weapons of choice to help tackle any project.
               </p>
             </div>
-            <div className="row d-flex align-items-center justify-content-between ">
+            <div className="row d-flex align-items-center justify-content-center media">
               <div className="col-12 col-md-6 col-lg-3  ">
-                <div className="card d-flex align-items-center justify-content-center p-2">
+                <div className="card d-flex align-items-center justify-content-center">
                   <img
                     className="card-img-top img-fluid"
                     src="/images/skills/js.png"

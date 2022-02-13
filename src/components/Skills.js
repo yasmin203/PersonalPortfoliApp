@@ -12,9 +12,9 @@ export default function Skills() {
               projects
             </p>
           </div>
-          <div className="row d-flex align-items-center justify-content-between ">
+          <div className="row d-flex align-items-center justify-content-around media ">
             <div className="col-12 col-md-6 col-lg-3  ">
-              <div className="card d-flex align-items-center justify-content-center p-2">
+              <div className="card d-flex align-items-center justify-content-evenly ">
                 <img
                   className="card-img-top img-fluid"
                   src="/images/skills/js.png"

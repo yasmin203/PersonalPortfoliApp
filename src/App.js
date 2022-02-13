@@ -10,6 +10,7 @@ import Tools from './components/Tools.js';
 import Contact from './components/Contact.js';
 import Footer from './components/Footer.js';
 import All from './components/All';
+import ProjectVideo from './components/ProjectVideo';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route  path='/home' component={Header} element={<Header />} />
         <Route  path='/about' component={About}  element={<About />} />
         <Route  path='/projects' component={Projects} element={<Projects />} />
+        {/* <Route  path='/projectVideo' component={ProjectVideo} element={<ProjectVideo />} /> */}
         <Route  path='/skills' component={Skills} element={<Skills />} />
         <Route  path='/tools' component={Tools} element={<Tools />} />
         <Route  path='/contact' component={Contact} element={<Contact />} />

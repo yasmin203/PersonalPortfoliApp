@@ -1,4 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import ProjectVideo from './ProjectVideo'
+import '../App.css'
 
 export default function Projects() {
     return (
@@ -18,20 +21,37 @@ export default function Projects() {
            </div>
            <div className='row mt-5 d-flex justify-content-center align-items-center'>
                <div className='col-lg-4 col-md-6 col-12'>
-               <div class="card">
-                <img class="card-img-top" src="/images/projects/p1.png" alt="project__1 " />
+               <div className="card">
+                <img className="card-img-top project" src="/images/projects/p2.png" alt="project__1 " />
+                <div className='img-content'>
+                    <a href="/" >CONSTRUCTION</a>
+                    <p>A  responsive web application for construction company displaying there info and services and more ... </p>
+                </div>
                 </div>
                </div>
 
-               <div className='col-lg-4 col-md-6 col-12'>
-               <div class="card">
-                <img class="card-img-top" src="/images/projects/p1.png" alt="project__2" />
+               <div className='col-lg-4 col-md-6 col-12 '>
+               <div className="card">
+                <img className="card-img-top project" src="/images/projects/p4.png" alt="project__2" />
+                <div className='img-content'>
+                    <Link to="/projectVideo" id='link1'  >Faculty</Link>
+                    <p>A  responsive web application for faculty  displaying there info and services and more ... </p>
+                    <ProjectVideo trigger={true}></ProjectVideo>
+
                 </div>
+            
+                </div>
+
+
                </div>
 
                <div className='col-lg-4 col-md-6 col-12'>
-               <div class="card">
-                <img class="card-img-top" src="/images/projects/p1.png" alt="project__3" />
+               <div className="card">
+                <img className="card-img-top project" src="/images/projects/p5.png" alt="project__3" />
+                <div className='img-content'>
+                    <a href="/" >CONSTRUCTION</a>
+                    <p>A  responsive web application kasper clone company displaying there info and services and more ... </p>
+                </div>
                 </div>
                </div>
            </div>
