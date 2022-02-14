@@ -9,19 +9,27 @@ function ProjectVideo(props) {
         <div className="modal-dialog" role="document">
           <div className="modal-content">
             <div className="modal-header">
-              <h5 className="modal-title" id="exampleModalLongTitle">Modal title</h5>
-              <button type="button" className="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
+           video
             </div>
             <div className="modal-body">
-           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam assumenda numquam eveniet, ipsa ad rem provident sunt tenetur animi vero incidunt atque quas enim quisquam et, iure nulla quis non?
-           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias accusantium consequatur cupiditate voluptatem, voluptate modi excepturi atque cum ab voluptas. Consequatur nesciunt ducimus, eos repellendus omnis quaerat saepe tempora nobis Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet quasi sint consequatur amet architecto asperiores porro eaque dolorem, officiis, odio laudantium in id unde saepe delectus totam laboriosam esse repudiandae!
+            <h5 className="modal-title" id="exampleModalLongTitle">Modal title</h5>
+            <p>descreption</p>
+         <p> Disclaimer: </p><h6>ebsite is for demonstractive purposes only. No real transactions are to be made. </h6>
+
+<p>TECHNOLOGIES</p>
+<h6>REACT.JS | HTML 5 | CSS 3 | BOOTSTRAP 4</h6>
+<p>Industry</p>
+<h6>E-commerce</h6>
+<p>LIVE WEBSITE</p>
+<h6>HTTPS://CMRA.JOHNNYUNGCODES.COM/</h6>
+<p>GITHUB</p>
+<h6>
+HTTPS://GITHUB.COM/JOHNNYUNG91/CMRA-JS</h6>
+
+
+
             </div>
-            <div className="modal-footer">
-              <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" className="btn btn-primary">Save changes</button>
-            </div>
+          
           </div>
         </div>
       </div>
