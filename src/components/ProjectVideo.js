@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 function ProjectVideo(props) {
     return (props.trigger)? (
       <>
@@ -9,7 +10,8 @@ function ProjectVideo(props) {
         <div className="modal-dialog" role="document">
           <div className="modal-content">
             <div className="modal-header">
-           video
+            <video src="" width="465" height="260" controls="controls" autoplay="true" />
+
             </div>
             <div className="modal-body">
             <h5 className="modal-title" id="exampleModalLongTitle">Modal title</h5>
